@@ -5,7 +5,7 @@ steps:
 
 # Build
 - name: 'gcr.io/cloud-builders/npm'
-  args: ['run' , 'build']
+  args: ['build']
 
 #Deploy
 - name: 'gcr.io/$PROJECT_ID/firebase'
