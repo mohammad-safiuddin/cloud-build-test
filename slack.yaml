@@ -7,7 +7,7 @@ spec:
     filter: build.status == Build.Status.SUCCESS
     delivery:
       webhookUrl:
-        secretRef: Slack
+        secretRef: webhook-url
   secrets:
-  - name: Slack
-    value: projects/634478749977/secrets/secret-name/versions/latest
+  - name: webhook-url
+    value: projects/my-pet-project-328317/secrets/Slack/versions/latest
