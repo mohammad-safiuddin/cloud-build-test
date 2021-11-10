@@ -14,5 +14,5 @@ steps:
   secretEnv: ['Learn']
 availableSecrets:
   secretManager:
-  - versionName: projects/hopeful-kingdom-328317/secrets/learn
+  - versionName: projects/hopeful-kingdom-328317/secrets/Learn/versions/2
     env: 'Learn'
