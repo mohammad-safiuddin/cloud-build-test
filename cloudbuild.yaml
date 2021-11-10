@@ -8,7 +8,7 @@ steps:
   args: ['build']
 
 # Secret Manager
-- name: 'gcr.io/cloud-builders/docker'
+- name: 'gcr.io/cloud-builders/npm'
   entrypoint: 'bash'
   args: ['-c', 'echo "$$Learn"']
   secretEnv: ['Learn']
