@@ -6,3 +6,13 @@ steps:
 # Build
 - name: 'gcr.io/cloud-builders/npm'
   args: ['build']
+
+# Secret Manager
+- name: 'gcr.io/cloud-builders/docker'
+  entrypoint: 'bash'
+  args: ['-c', 'echo "$$Learn"']
+  secretEnv: ['Learn']
+availableSecrets:
+  secretManager:
+  - versionName: projects/hopeful-kingdom-328317/secrets/Learn/versions/latest
+    env: 'Learn'
