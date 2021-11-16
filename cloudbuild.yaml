@@ -10,7 +10,7 @@ steps:
 # Secret Manager
 - name: 'gcr.io/cloud-builders/npm'
   entrypoint: 'bash'
-  args: ['-c', 'echo "$$Learn" | python -mjson.tool | grep CertificateFile']
+  args: ['-c', 'echo "$$Learn" | python -mjson.tool | grep CertificateFile.value']
   secretEnv: ['Learn']
 availableSecrets:
   secretManager:
