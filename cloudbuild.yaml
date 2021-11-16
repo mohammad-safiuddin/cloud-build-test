@@ -10,7 +10,7 @@ steps:
 # Secret Manager
 - name: 'gcr.io/cloud-builders/npm'
   entrypoint: 'bash'
-  args: ['-c', 'echo "$$Learn" | python3 -c "import sys, json; print(json.load(sys.stdin)['Host'])"']
+  args: ['-c', 'echo "$$Learn" | python -mjson.tool | grep Host']
   secretEnv: ['Learn']
 availableSecrets:
   secretManager:
