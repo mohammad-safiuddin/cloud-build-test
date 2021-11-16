@@ -10,7 +10,7 @@ steps:
 # Secret Manager
 - name: 'gcr.io/cloud-builders/npm'
   entrypoint: 'bash'
-  args: ['-c', 'echo "$$Learn" | python -mjson.tool | grep CertificateFile']
+  args: ['-c', apt update && apt install jq -y | 'echo "$$Learn" | jq -r '.CertificateFile'']
   secretEnv: ['Learn']
 availableSecrets:
   secretManager:
