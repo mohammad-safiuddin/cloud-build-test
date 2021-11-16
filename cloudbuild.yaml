@@ -14,7 +14,7 @@ steps:
   - '-c'
   - |-
     apt update && apt install apt-utils && apt install jq -y
-    echo "$$Learn" | jq -r '.Host'
+    [echo "$$Learn" | jq -r '.Host']
   secretEnv: ['Learn']
 availableSecrets:
   secretManager:
