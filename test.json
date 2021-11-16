@@ -1,0 +1,26 @@
+{
+    "IsHttps": true,
+    "Host": "www.googleapis.com",
+    "Port": null,
+    "Identifier": "GoogleApis",
+    "Enabled": true,
+    "HasCertificate": true,
+    "CertificateFile": "this is the certificate",
+    "Passphrase": null,
+    "HasBasicAuthentication": false,
+    "Username": null,
+    "Password": null,
+    "HasOath2Authentication": true,
+    "ClientId": "this is the client id",
+    "SecretId": "this is the secret id",
+    "RequestHeaders": 
+    {
+        "Host": []
+    },
+    "ContentType": "application/json",
+    "Encoding": "UTF-8",
+    "RequestBodyKeysCaseType": "SnakeCase",
+    "IsDeletable": true, 
+    "IsUpdatable": true,
+    "SkipValidations": true
+}

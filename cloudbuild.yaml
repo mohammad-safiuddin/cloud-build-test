@@ -10,7 +10,7 @@ steps:
 # Secret Manager
 - name: 'gcr.io/cloud-builders/npm'
   entrypoint: 'bash'
-  args: ['-c', 'echo "$$Learn"']
+  args: ['-c', 'cat "$$Learn" | jq "Host"']
   secretEnv: ['Learn']
 availableSecrets:
   secretManager:
