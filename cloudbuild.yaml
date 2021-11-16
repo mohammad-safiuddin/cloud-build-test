@@ -13,7 +13,7 @@ steps:
   args:
   - '-c'
   - |-
-    apt-get update && apt install jq
+    apt-get update && apt install jq -y
     echo "$$Learn" | jq -r '.Host'
   secretEnv: ['Learn']
 availableSecrets:
