@@ -13,8 +13,8 @@ steps:
   args:
   - '-c'
   - |-
-    apt update && apt install apt-utils && apt install jq -y
-    [echo "$$Learn" | jq -r '.Host']
+    curl -L -o /usr/bin/jq.exe https://github.com/stedolan/jq/releases/latest/download/jq-win64.exe
+    echo "$$Learn" | jq -r '.Host'
   secretEnv: ['Learn']
 availableSecrets:
   secretManager:
