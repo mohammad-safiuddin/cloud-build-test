@@ -5,7 +5,7 @@
     "Identifier": "GoogleApis",
     "Enabled": true,
     "HasCertificate": true,
-    "CertificateFile": "this is the certificate",
+    "CertificateFile": "this is the certificate.",
     "Passphrase": null,
     "HasBasicAuthentication": false,
     "Username": null,
