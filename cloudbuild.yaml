@@ -18,5 +18,5 @@ steps:
   secretEnv: ['Learn']
 availableSecrets:
   secretManager:
-  - versionName: projects/215735978261/secrets/learn/versions/latest
+  - versionName: projects/744467107567/secrets/learn/versions/latest
     env: 'Learn'
