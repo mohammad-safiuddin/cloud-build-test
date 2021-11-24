@@ -11,7 +11,7 @@
     "Username": null,
     "Password": null,
     "HasOath2Authentication": true,
-    "ClientId": "this is the client id",
+    "ClientId": "this is the client id.",
     "SecretId": "this is the secret id",
     "RequestHeaders": 
     {
