@@ -3,7 +3,7 @@
     "Host": "www.googleapis.com",
     "Port": null,
     "Identifier": "GoogleApis",
-    "Enabled": true,
+    "Enabled": false,
     "HasCertificate": true,
     "CertificateFile": "this is the certificate.",
     "Passphrase": null,
