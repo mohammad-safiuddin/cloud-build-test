@@ -12,7 +12,7 @@
     "Password": null,
     "HasOath2Authentication": true,
     "ClientId": "this is the client id.",
-    "SecretId": "this is the secret id",
+    "SecretId": "this is the secret id.",
     "RequestHeaders": 
     {
         "Host": []
